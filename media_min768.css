@@ -7,10 +7,10 @@
     margin-top: 128px;
   }
 
-  .footer-item {
+  .footer-item-wrapper {
     order: 0;
   }
-  
+
   .circles {
     order: 1;
   }

@@ -12,22 +12,76 @@
 
 * {
   box-sizing: border-box;
-  margin: 10px;
+  margin: 0;
   padding: 0;
 }
 
 body {
   font-family: 'Rubik', sans-serif;
+  color: white;
+  background-color: var(--black);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 h1 {
-  font-family: 'Rubik Mono One', sans-serif;
   font-size: 72px;
 }
 
 h2 {
   font-size: 40px;
-  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px; /*is there even a h5 in the graphic profile??*/
+}
+
+p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+input, button {
+  font-family: 'Rubik Mono One', sans-serif;
+  height: 55px;
+  border: 3px solid var(--citra);
+}
+
+input {
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 0 20px 20px 20px;
+  width: 400px;
+}
+
+button {
+  font-size: 24px;
+  background-color: var(--citra);
+  color: var(--black);
+  border-radius: 20px 20px 0 20px;
+  width: 210px;
+}
+
+.rotate {
+  display: block;
+  transform: rotate(-1deg);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--citra);
+  font-size: bold;
+
 }
 
 main {
@@ -52,7 +106,7 @@ main {
   border: 2px solid orange;
 }
 
-.landing, .newsletter, .signUp, .main-content, footer, .footer-item {
+.landing, .newsletter, .signUp, .main-content, footer, .footer-item-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -78,6 +132,11 @@ footer {
   border: 2px solid pink;
 }
 
+.footer-item {
+  width: 203px;
+  height: 134px;
+  border-top: 10px solid var(--citra);
+}
 
 
 
