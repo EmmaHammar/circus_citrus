@@ -84,6 +84,10 @@ button {
 
 }
 
+header {
+  width: 100%;
+}
+
 main {
   border: 2px solid green;
   height: 100%;
@@ -94,8 +98,6 @@ main {
 
 .blue {
   border: 2px solid blue;
-  display: flex;
-  flex-direction: column;
 }
 
 .red {
@@ -106,7 +108,13 @@ main {
   border: 2px solid orange;
 }
 
-.landing, .newsletter, .signUp, .main-content, footer, .footer-item-wrapper {
+.viewport1, 
+.newsletter, 
+.sign-up, 
+.viewport2, 
+.all-shows-wrapper, 
+footer, 
+.footer-item-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -119,11 +127,6 @@ main {
   border: 2px solid purple;
 }
 
-.shows {
-  display: flex;
-  flex-direction: column;
-}
-
 .turquoise {
   border: 2px solid turquoise;
 }
@@ -132,7 +135,7 @@ footer {
   border: 2px solid pink;
 }
 
-.footer-item {
+.footer-column {
   width: 203px;
   height: 134px;
   border-top: 10px solid var(--citra);

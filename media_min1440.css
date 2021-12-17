@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1440px) {
+  .viewport1 {
+    flex-flow: row wrap;
+    margin-left: 56px; 
+    justify-content: stretch; /*or flex-end? */
+  }
+
+  .intro-text, .newsletter {
+    width: 30%;/*width is temp and not accurate*/
+  }
+
+  .blob {
+    width: 60%;/*width is temp and not accurate*/
+    align-self: stretch; /*not right. not stretching as should*/
+  }
+
+  .newsletter {
+    margin-left: 4px;
+  }
+
+  .viewport2, .footer-column-wrapper {
+    flex-direction: row;
+  }
+
+  .shows-wrapper2{
+    margin-top: 0;
+  }
+}

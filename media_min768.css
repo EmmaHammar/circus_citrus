@@ -1,17 +1,17 @@
 @media only screen and (min-width: 768px) {
-  .signUp, .shows, footer {
+  .sign-up, .all-shows-wrapper, footer {
     flex-direction: row;
   }
 
-  .show-wrapper {
+  .shows-wrapper2 {
     margin-top: 128px;
   }
 
-  .footer-item-wrapper {
+  .footer-column-wrapper {
     order: 0;
   }
 
-  .circles {
+  .footer-icon {
     order: 1;
   }
 
